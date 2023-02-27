@@ -48,8 +48,6 @@ body {
 /* Header */
 .logo {
   color: var(--primary-brand);
-  width: 44px;
-  height: 24px;
   font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
@@ -69,8 +67,6 @@ body {
 .site-nav .link {
   color: var(--dark);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
   text-decoration: none;
 }
 .site-nav .link.current {
@@ -104,7 +100,6 @@ body {
 }
 .section-title {
   color: var(--dark);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   text-transform: capitalize;
@@ -117,11 +112,9 @@ body {
   color: var(--primary-white);
   font-size: 56px;
   line-height: 1.07;
-  font-weight: 700;
 }
 /* Feauters and Team */
-.features-list .title,
-.section.team .title {
+.section-subtitle {
   color: var(--dark);
   font-weight: 500;
   font-size: 20px;
@@ -142,4 +135,7 @@ body {
 }
 .span-footer {
   color: var(--light);
+}
+.portfolio-project-text {
+  color: var(--text);
 }
